@@ -1,11 +1,8 @@
 package utopiantree;
 
 /**
- * Created with IntelliJ IDEA.
- * User: prince
+ * Author: lovubuntu
  * Date: 21/11/13
- * Time: 10:48 PM
- * To change this template use File | Settings | File Templates.
  */
 public class UtopianTree {
     private int height;
@@ -22,13 +19,7 @@ public class UtopianTree {
             height *= 2;
             return;
         }
-        if (isSummer(seasonNo)){
-            height++;
-        }
-    }
-
-    private boolean isSummer(int seasonNo){
-        return (seasonNo % 2) == 0;
+        height++;
     }
 
     private boolean isMonsoon(int seasonNo){
